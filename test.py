@@ -14,6 +14,9 @@ class Testcase(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(calc.multiply(4, 3), 12)
 
+    def test_division(self):
+        self.assertEqual(calc.division(60, 2), 30)
+
 
 if __name__ == '__main__':
     unittest.main()
